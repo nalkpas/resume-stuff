@@ -1,0 +1,304 @@
+%-------------------------
+% 2018 resume
+% Author: Allen Wu
+% Template: Sourabh Bajaj
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{latexsym, amssymb, bbm, amsmath}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item[$\bullet$]\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemB}[2]{
+	\item[]\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumePoint}[1]{
+	\item[$\bullet$]\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheadingShort}[2]{
+	\small{\vspace{-1pt}\item[]
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+	\end{tabular*}\vspace{-5pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\small{\vspace{-1pt}\item[]
+		    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		      \textbf{#1} & #2 \\
+		      \textit{#3} & \textit{ #4} \\
+		    \end{tabular*}\vspace{-5pt}}
+}
+
+\newcommand{\resumeSubheadingLong}[5]{
+	\small{\vspace{-1pt}\item[]
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+		{\small#5} \\
+	\end{tabular*}\vspace{-5pt}}
+}
+
+\newcommand{\resumeSubheadingLonger}[7]{
+	\small{\vspace{-1pt}\item[]
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+		{\small#5} & {\small #6} \\
+		{\small#7} \\
+	\end{tabular*}\vspace{-5pt}}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemB}[2]{\resumeItemB{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large Allen Wu} & {Email: nalkpas@gmail.com}\\
+  {21 Comstock Circle, Stanford, CA 94305} & {Mobile: (505) 920-4664}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stanford University}{Stanford, CA}
+      {MS, Management Science \& Engineering. GPA: 3.92/4.00.}{2016 -- 2018}
+    \resumeSubheadingLong
+      {University of Chicago}{Chicago, IL}
+      {BA, Mathematics. GPA: 3.89/4.00.}{2011 -- 2015}
+%      {\textit{Phi Beta Kappa}}
+      {\textit{Honors: Phi Beta Kappa, Dean's List, National Merit Scholarship}}
+%      {Coursework: }
+  \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+\section{Coursework}
+\small{
+%	\textbf{Math}{: Stochastic Processes, Analysis in $\mathbb{R}^n$, Honors Algebra, Optimization, Partial Differential Equations} \\
+	\textbf{Computer Science}{: Mining Massive Data Sets, Deep Learning, Algorithmic Techniques for Big Data, Design and Analysis of Algorithms, Decision Making Under Uncertainty, General Game Playing} \\
+	\textbf{Decision Theory}{: Risk Analysis, Stochastic Modeling, Financial Risk Analytics, Professional Decision Analysis} \\
+}
+
+% Decision-Making Under Uncertainty, Algorithmic Techniques for Big Data, Design and Analysis of Algorithms 
+%
+% Complex Analysis, Introduction to Optimization Theory
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Wizards of the Coast}{Renton, WA}
+      {Game Design Contractor}{2017 -- 2018}
+      \resumeItemListStart
+        \resumeItem{Game Development}
+			{Provided insight on the entertainment value, competitive balance, and replayability of new expansions for Magic: the Gathering, a strategy card game played by over 10 million people.}      
+%        \resumeItem{Challenger Decks}
+%            {Designed the 2018 Challenger Decks series, a popular and successful product aimed to give newer players an affordable entry point into competitive play.}
+%        \resumeItem{Analytics}
+%	        {Built tools to consolidate internal testing, analyze card files, interpret tournament results, and more.}      
+      \resumeItemListEnd
+
+    \resumeSubheading
+		{Stanford}{Stanford, CA}
+		{Course Assistant, Introduction to Decision Making}{Summer 2017}
+		\resumeItemListStart
+			\resumeItem{Teaching}
+				{Wrote and graded homework assignments and exams, held office hours, and advised students on a course project where they consulted with businesses and applied the tools taught in class.}
+		\resumeItemListEnd
+
+%    \resumeSubheading
+%    	{University of Chicago}{Chicago, IL}
+%      	{Mathematics REU}{Summer 2012}
+%      	\resumeItemListStart
+%        	\resumePoint{Attended introductory lectures for higher mathematics.}
+%        	\resumePoint{Researched number theory under a graduate mentor.}
+%     	 \resumeItemListEnd
+     
+     \resumeSubheading
+      	{Sandia National Laboratory}{Albuquerque, NM}
+		{Intern, Resilience and Regulatory Effects}{Summer 2014}
+	    \resumeItemListStart
+		    \resumeItem{Modeling Research}
+		    	{Researched new economic models to evaluate their strengths and weaknesses.}
+%		    \resumeItem{Data Cleaning}
+%		    	{Inspected and processed government data sets for use in internal models.}
+	    \resumeItemListEnd
+
+%    \resumeSubheading
+%      {Los Alamos National Laboratory}{Los Alamos, NM}
+%      {Intern, T-Division}{Summer 2010}
+%      \resumeItemListStart
+%%        \resumeItem{Particle Dynamics Modeling}
+%%          {Wrote a Java program to model particle collisions using finite element methodology in one and two dimensions. The program read data from input spreadsheets, tracked particles through rotations, dilations, and translations, and produced approximate density graphs.}
+%       	\resumeItem{Particle Dynamics Modeling}
+%        	{Wrote a finite element particle collision simulation in Java.}
+%      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+  
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+%\small{\textbf{\href{https://github.com/nalkpas/MSE250B-2018-Project}{Probabilistic Risk Analysis of Colorado Wildfires}}
+%	{: Designed and implemented a Markov time-series model to predict wildfire behavior and damages. Wrote scripts to process the outputs into intuitive graphics.} \\
+%	\textbf{\href{https://github.com/nalkpas/MSE246-2018-Project}{SBA Loan Risk Analysis}}
+%	{: Implemented several models for loan default and loss to compare different approaches.} \\
+%	\textbf{\href{https://github.com/nalkpas/CS230-2018-Project}{Playing Blackjack with Deep Q-Learning}} 
+%	{: Constructed a deep $Q$-network in PyTorch to learn to play blackjack.} \\
+%	\textbf{\href{https://github.com/nalkpas/hand-simulator}{Magic: the Gathering Hand Simulation}}
+%	{: Developed a Monte Carlo simulation framework for evaluating opening hand strengths, finding the optimal way to construct decks, and determining how consistent different deck designs are.}} \\
+
+\resumeSubHeadingListStart
+  	\resumeSubheadingShort
+  		{\href{https://github.com/nalkpas/MSE250B-2018-Project}{Probabilistic Risk Analysis of Colorado Wildfires}}{\textit{Spring 2018}}
+  		\resumeItemListStart
+  			\resumePoint{Worked with officials, wildfire experts, and firefighters to determine the costs and benefits of implementing the International Wildland-Urban Interface Codes in Jefferson County, Colorado.}
+	    	\resumePoint{Designed and implemented a Markov time-series model to predict wildfire behavior and damages.}
+%	    	\resumePoint{Transformed model outputs into intuitive infographics.}
+	    \resumeItemListEnd
+	    
+	\resumeSubheadingShort
+	    {\href{https://github.com/nalkpas/MSE246-2018-Project}{SBA Loan Risk Analysis}}{\textit{Winter 2017}}
+	    \resumeItemListStart
+	    	\resumePoint{Evaluated the risks of asset-backed securities and portfolios of loans using linear and logistic regression, neural networks, and hazard rate modeling.}
+%		    \resumePoint{Predicted loan default and loss using linear and logistic regression, neural networks, and hazard rate modeling.}
+%		    \resumePoint{Evaluated the risks of asset-backed securities and portfolios of loans.}
+		    \resumePoint{Compared the predictions, accuracy, sensitivity, and specificity of the different approaches.}
+	    \resumeItemListEnd
+	    
+	\resumeSubheadingShort
+		{\href{https://github.com/nalkpas/CS230-2018-Project}{Playing Blackjack with Deep Q-Learning}}{\textit{Winter 2017}}
+		\resumeItemListStart
+			\resumePoint{Implemented a blackjack state-machine following typical casino conventions.}
+			\resumePoint{Constructed and trained a deep $Q$-network in PyTorch to determine the optimal blackjack policy.}
+		\resumeItemListEnd
+		
+	\resumeSubheadingShort
+		{\href{https://github.com/nalkpas/hand-simulator}{Magic: the Gathering Hand Simulation}}{\textit{Winter 2017}}
+		\resumeItemListStart
+			\resumePoint{Developed a Monte Carlo simulation framework for generating and interpreting opening hands, using it to determine how consistent particular decks are and to find optimal deck configurations.}
+		\resumeItemListEnd
+		
+%	\resumeItemB{\href{https://github.com/nalkpas/hand-simulator}{Magic: the Gathering Hand Simulation}}
+%		{Developed a Monte Carlo simulation framework for finding the optimal way to construct decks, evaluating opening hand strengths, and determining how consistent different decks are.}
+		
+\resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+\small{
+	\textbf{Fluent}{: Python (NumPy, SciPy, PyTorch, Pandas, Matplotlib), Java, Excel} \\
+	\textbf{Conversational}{: Clojure, Julia, TensorFlow, R, Stata, Spark, SQL, Mandarin} \\
+	\textbf{Communication}{: \LaTeX, Markdown, Google Suite, Microsoft Office} \\
+}
+
+%\section{Skills}
+%\resumeSubHeadingListStart
+%	\resumeSubItemB{Fluent}
+%		{Python (NumPy, SciPy, Pandas, Matplotlib), PyTorch, Java, Excel}
+%	\resumeSubItemB{Basic}
+%		{Clojure, Julia, TensorFlow, R, Stata, Spark, SQL, Mandarin}
+%	\resumeSubItemB{Communication}
+%		{\LaTeX, Markdown, Microsoft Office}
+%\resumeSubHeadingListEnd
+
+
+%--------INTERESTS------------
+\section{Interests}
+\resumeSubHeadingListStart
+
+	\resumeSubheadingShort
+		{Magic: the Gathering}{}
+		\resumeItemListStart
+			\resumePoint{Winner of Pro Tour 25\textsuperscript{th} Anniversary (2018) and Grand Prix Albuquerque 2016.\hspace{-5pt}}
+			\resumePoint{Ranked \#15 on the live Elo leaderboard, with a rating of 2118.}
+			\resumePoint{Built models to analyze tournament results, improve in-game decision-making, and forecast player behavior.}
+			\resumePoint{Published a series of articles on \href{https://www.channelfireball.com/author/allen-wu/}{channelfireball.com}, one of the top Magic content websites.}
+		\resumeItemListEnd
+		
+		%		\resumeSubheadingShort
+		%			{Hearthstone}{}
+		%			\resumeItemListStart
+		%				\resumePoint{Reached top 100 on the North American ladder multiple times, including finishing one ranked play season at \#2.}
+		%			\resumeItemListEnd
+		
+%	\resumeSubheadingShort{Biking, Board Games, George Saunders, the Mountain Goats}{}
+
+\resumeSubHeadingListEnd
+%biking, yoga, board games, George Saunders, Miranda July, the Mountain Goats
+
+
+%%--------LINKS------------
+%\section{Links}
+%\url{https://github.com/nalkpas}
+%\url{http://wiresandstarlings.tumblr.com/}
+
+
+%-------------------------------------------
+\end{document}
