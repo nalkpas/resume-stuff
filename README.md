@@ -1,4 +1,4 @@
-# Resume
+# Resumes
 
 Current and past resumes, with transcripts. Template mostly taken from [Sourabh Bajaj](https://github.com/sb2nov/resume), with some crude modifications. 
 
