@@ -103,8 +103,8 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
@@ -123,7 +123,7 @@
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
+  \resumeListStart
     \resumeSubheading
       {Stanford University}{Stanford, CA}
       {MS, Management Science \& Engineering. GPA: 3.92/4.00.}{2016 -- 2018}
@@ -133,15 +133,16 @@
 %      {\textit{Phi Beta Kappa}}
       {\textit{Honors: Phi Beta Kappa, Dean's List, National Merit Scholarship}}
 %      {Coursework: }
-  \resumeSubHeadingListEnd
+  \resumeListEnd
 
 %--------SKILLS------------
 \section{Coursework}
-\small{
-%	\textbf{Math}{: Stochastic Processes, Analysis in $\mathbb{R}^n$, Honors Algebra, Optimization, Partial Differential Equations} \\
-	\textbf{Computer Science}{: Mining Massive Data Sets, Deep Learning, Algorithmic Techniques for Big Data, Design and Analysis of Algorithms, Decision Making Under Uncertainty, General Game Playing} \\
-	\textbf{Decision Theory}{: Risk Analysis, Stochastic Modeling, Financial Risk Analytics, Professional Decision Analysis} \\
-}
+
+\resumeListStart
+%	\resumeItemB{Math}{: Stochastic Processes, Analysis in $\mathbb{R}^n$, Honors Algebra, Optimization, Partial Differential Equations} \vspace{-5pt} 
+	\resumeItemB{Computer Science}{Mining Massive Data Sets, Deep Learning, Algorithmic Techniques for Big Data, Design and Analysis of Algorithms, Decision Making Under Uncertainty, General Game Playing} \vspace{-5pt} 
+	\resumeItemB{Decision Theory}{Risk Analysis, Stochastic Modeling, Financial Risk Analytics, Professional Decision Analysis}
+\resumeListEnd
 
 % Decision-Making Under Uncertainty, Algorithmic Techniques for Big Data, Design and Analysis of Algorithms 
 %
@@ -149,7 +150,7 @@
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
-  \resumeSubHeadingListStart
+  \resumeListStart
   	    \resumeSubheading
 		  	{BitGo}{Palo Alto, CA}
 		  	{Data Engineer}{2018 -- 2019}
@@ -212,7 +213,7 @@
 %        	{Wrote a finite element particle collision simulation in Java.}
 %      \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+\resumeListEnd
   
 
 
@@ -227,7 +228,7 @@
 %	\textbf{\href{https://github.com/nalkpas/hand-simulator}{Magic: the Gathering Hand Simulation}}
 %	{: Developed a Monte Carlo simulation framework for evaluating opening hand strengths, finding the optimal way to construct decks, and determining how consistent different deck designs are.}} \\
 
-\resumeSubHeadingListStart
+\resumeListStart
   	\resumeSubheadingShort
   		{\href{https://github.com/nalkpas/MSE250B-2018-Project}{Probabilistic Risk Analysis of Colorado Wildfires}}{\textit{Spring 2018}}
   		\resumeItemListStart
@@ -261,31 +262,32 @@
 %	\resumeItemB{\href{https://github.com/nalkpas/hand-simulator}{Magic: the Gathering Hand Simulation}}
 %		{Developed a Monte Carlo simulation framework for finding the optimal way to construct decks, evaluating opening hand strengths, and determining how consistent different decks are.}
 		
-\resumeSubHeadingListEnd
+\resumeListEnd
 
 
 %--------SKILLS------------
 \section{Skills}
-\small{
-	\textbf{Fluent}{: Python (NumPy, SciPy, PyTorch, Pandas, Matplotlib), SQL} \\
-	\textbf{Conversational}{: NodeJS, Java, Clojure, Julia, TensorFlow, R, Stata, Spark, Mandarin} \\
-	\textbf{Communication}{: \LaTeX, Markdown, Google Suite, Microsoft Office} \\
-}
+
+\resumeListStart
+	\resumeItemB{Fluent}{Python (NumPy, SciPy, PyTorch, Pandas, Matplotlib), SQL} \vspace{-5pt} 
+	\resumeItemB{Conversational}{NodeJS, Java, Clojure, Julia, TensorFlow, R, Stata, Spark, Mandarin} \vspace{-5pt} 
+	\resumeItemB{Communication}{\LaTeX, Markdown, Google Suite, Microsoft Office} 
+\resumeListEnd
 
 %\section{Skills}
-%\resumeSubHeadingListStart
+%\resumeListStart
 %	\resumeSubItemB{Fluent}
 %		{Python (NumPy, SciPy, Pandas, Matplotlib), PyTorch, Java, Excel}
 %	\resumeSubItemB{Basic}
 %		{Clojure, Julia, TensorFlow, R, Stata, Spark, SQL, Mandarin}
 %	\resumeSubItemB{Communication}
 %		{\LaTeX, Markdown, Microsoft Office}
-%\resumeSubHeadingListEnd
+%\resumeListEnd
 
 
 %--------INTERESTS------------
 \section{Interests}
-\resumeSubHeadingListStart
+\resumeListStart
 
 	\resumeSubheadingShort
 		{Magic: the Gathering}{}
@@ -304,7 +306,7 @@
 		
 %	\resumeSubheadingShort{Biking, Board Games, George Saunders, the Mountain Goats}{}
 
-\resumeSubHeadingListEnd
+\resumeListEnd
 %biking, yoga, board games, George Saunders, Miranda July, the Mountain Goats
 
 
